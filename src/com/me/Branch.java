@@ -25,6 +25,12 @@ public class Branch {
 
     }
 
+    //step 25 add to add a getter for step 24 in bank class
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
+
     //step 13 method for new customer, boolean b/c it will varify if customer exists
     public boolean newCustomer(String customerName, double initialAmount) {
 
